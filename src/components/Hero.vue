@@ -17,7 +17,7 @@ import Navbar from './Navbar.vue';
         <h1 class="text-7xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-fuchsia-500">
         MARC CAYAM
         </h1>
-        <p class="lg:w-4/5 text-gray-500 dark:text-white xl:text-lg leading-relaxed mb-8 md:mb-12">I'm a young <strong>Web Developer</strong> with a keen interest for UI/UX and Graphic Design with 
+        <p class="lg:w-4/5 text-gray-500 dark:text-white xl:text-xl leading-relaxed mb-8 md:mb-12">I'm a young <span class="bg-mesh-2 rounded-md lg:px-3 px-2 font-bold">Web Developer</span> with a keen interest for UI/UX and Graphic Design with 
         a passion for building web apps</p>
 
         <div class="flex flex-col sm:flex-row sm:justify-center lg:justify-start gap-2.5">
