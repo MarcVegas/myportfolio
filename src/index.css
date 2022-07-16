@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .bg-mesh-1{
+        background-color: rgb(94, 234, 212);
+        background-image: radial-gradient(at 91% 75%, rgb(21, 94, 117) 0, transparent 30%), radial-gradient(at 41% 56%, rgb(45, 212, 191) 0, transparent 99%), radial-gradient(at 51% 80%, rgb(252, 165, 165) 0, transparent 34%), radial-gradient(at 91% 63%, rgb(228, 228, 231) 0, transparent 5%), radial-gradient(at 89% 41%, rgb(163, 163, 163) 0, transparent 7%), radial-gradient(at 72% 49%, rgb(76, 29, 149) 0, transparent 59%);
+    }
+    .bg-mesh-2{
+        background-color: rgb(30, 41, 59);
+        background-image: radial-gradient(at 34% 92%, rgb(212, 212, 212) 0, transparent 11%), radial-gradient(at 92% 88%, rgb(234, 179, 8) 0, transparent 55%), radial-gradient(at 81% 61%, rgb(162, 28, 175) 0, transparent 31%), radial-gradient(at 32% 43%, rgb(134, 25, 143) 0, transparent 98%), radial-gradient(at 4% 94%, rgb(4, 120, 87) 0, transparent 5%), radial-gradient(at 95% 34%, rgb(234, 88, 12) 0, transparent 83%);  
+    }
+    .bg-mesh-3{
+        background-color: rgb(109, 40, 217);
+        background-image: radial-gradient(at 82% 96%, rgb(31, 41, 55) 0, transparent 35%), radial-gradient(at 32% 64%, rgb(244, 63, 94) 0, transparent 58%), radial-gradient(at 94% 53%, rgb(224, 242, 254) 0, transparent 74%), radial-gradient(at 3% 4%, rgb(75, 85, 99) 0, transparent 97%), radial-gradient(at 93% 27%, rgb(125, 211, 252) 0, transparent 67%), radial-gradient(at 31% 77%, rgb(79, 70, 229) 0, transparent 44%);
+    }
+}
