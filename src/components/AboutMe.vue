@@ -4,7 +4,7 @@
 
 <template>
 <div id="aboutme" class="bg-white dark:bg-mesh-2 py-6 sm:py-8 lg:py-4">
-    <section class=" flex justify-center items-center flex-1 shrink-0 bg-gray-100 overflow-hidden shadow-lg rounded-lg relative py-16 mx-28 md:px-10 xl:py-20">
+    <section class=" flex justify-center items-center flex-1 shrink-0 bg-gray-100 overflow-hidden shadow-lg rounded-lg relative py-16 lg:mx-28 mx-4 md:px-10 xl:py-20">
       <!-- image - start -->
       <img src="https://images.unsplash.com/photo-1526925539332-aa3b66e35444?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNDY5NjN8MHwxfGFsbHx8fHx8fHx8fDE2NTc5ODA1OTY&ixlib=rb-1.2.1&q=80&w=1080" loading="lazy" alt="Photo by KNXRT on Unsplash" class="w-full h-full object-cover object-center absolute inset-0" />
       <!-- image - end -->
