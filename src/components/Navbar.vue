@@ -4,25 +4,34 @@
 
 <template>
 
-<header class="sticky top-0 flex justify-between items-center py-4 md:py-8 mb-8 md:mb-12 xl:mb-8">
-
-  <a href="/" class="inline-flex items-center text-black-800 dark:text-white text-2xl md:text-3xl font-bold gap-2.5" aria-label="logo">
-    <svg width="95" height="94" viewBox="0 0 95 94" class="w-6 h-auto text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-      <path d="M96 0V47L48 94H0V47L48 0H96Z" />
-    </svg>
-
-    MARC CAYAM
-  </a>
-
-  <nav class="hidden lg:flex gap-12">
-    <a href="#" class="text-indigo-500  text-lg font-semibold">Home</a>
-    <a href="#projects" class="text-gray-600 dark:text-white hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">Projects</a>
-    <a href="#techstack" class="text-gray-600 dark:text-white hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">Tech Stack</a>
-    <a href="#aboutme" class="text-gray-600 dark:text-white hover:text-indigo-500 active:text-indigo-700 text-lg font-semibold transition duration-100">About Me</a>
-  </nav>
-
-  <a href="#aboutme" class="hidden lg:inline-block bg-gray-200 hover:bg-gray-300 focus-visible:ring ring-indigo-300 text-gray-500 active:text-gray-700 text-sm md:text-base font-semibold text-center rounded-lg outline-none transition duration-100 px-8 py-3">Hire Me</a>
-
-  
-</header>
+<nav class="bg-white border-gray-200 sticky top-0 px-2 sm:px-4 py-8 rounded dark:bg-gray-900">
+  <div class="container flex flex-wrap justify-between items-center mx-auto">
+    <a href="https://myportfolio-one-wine.vercel.app/" class="flex items-center">
+        <svg width="95" height="94" viewBox="0 0 95 94" class="w-6 h-auto text-indigo-500" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+          <path d="M96 0V47L48 94H0V47L48 0H96Z" />
+        </svg>
+        <span class="self-center text-xl px-1 font-semibold whitespace-nowrap dark:text-white"> MARC CAYAM</span>
+    </a>
+    <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+      <span class="sr-only">Open main menu</span>
+      <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+      <ul class="flex flex-col mt-4 lg:text-lg lg:font-bold md:flex-row md:space-x-8 md:mt-0 md:text-sm md:font-medium">
+        <li>
+          <a href="#home" class="block py-2 pr-4 pl-3 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 dark:text-white" aria-current="page">Home</a>
+        </li>
+        <li>
+          <a href="#projects" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Projects</a>
+        </li>
+        <li>
+          <a href="#techstack" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Tech Stack</a>
+        </li>
+        <li>
+          <a href="#aboutme" class="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-gray-400 md:dark:hover:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 </template>
