@@ -7,7 +7,7 @@
 <nav class="bg-white border-gray-200 sticky top-0 px-2 sm:px-4 py-8 rounded dark:bg-gray-900">
   <div class="container flex flex-wrap justify-between items-center mx-auto">
     <a href="https://myportfolio-one-wine.vercel.app/" class="flex items-center">
-        <img src="../assets/logomarc.svg" alt="My Logo" class="w-6 h-6">
+        <img src="../assets/logomarc.svg" loading="lazy" alt="My Logo" class="w-6 h-6">
         <span class="self-center text-xl px-1 font-semibold whitespace-nowrap dark:text-white"> MARC CAYAM</span>
     </a>
     <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
