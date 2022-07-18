@@ -26,7 +26,7 @@ import Navbar from './Navbar.vue';
       </div>
 
       <div class="xl:w-auto lg:h-[40em] bg-mesh-1 p-3 overflow-hidden shadow-lg rounded-lg">
-        <img src="../assets/profileopt.png" loading="lazy" alt="Marc Cayam Profile" class="w-full h-full object-cover object-center" />
+        <img src="../assets/profileopt.webp" loading="lazy" alt="Marc Cayam Profile" class="w-full h-full object-cover object-center" />
       </div>
     </section>
   </div>
