@@ -34,23 +34,23 @@ useHead({
       content: 'I am a Web Developer and Graphic Designer dedicated to building cool web apps'
     },
     {
-      property: 'twitter:card',
+      name: 'twitter:card',
       content: 'summary'
     },
     {
-      property: 'twitter:site',
+      name: 'twitter:site',
       content: '@marcopolotwo'
     },
     {
-      property: 'twitter:title',
+      name: 'twitter:title',
       content: 'Marc Cayam | Web Developer'
     },
     {
-      property: 'twitter:description',
+      name: 'twitter:description',
       content: 'I am a Web Developer and Graphic Designer dedicated to building cool web apps'
     },
     {
-      property: 'twitter:image',
+      name: 'twitter:image',
       content: 'https://myportfolio-marcvegas.vercel.app/assets/profileopt.6877ecb4.png'
     },
   ]
