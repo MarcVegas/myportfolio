@@ -33,7 +33,7 @@ useHead({
       property: 'og:description',
       content: 'I am a Web Developer and Graphic Designer dedicated to building cool web apps'
     },
-    {
+    /* {
       name: 'twitter:card',
       content: 'summary'
     },
@@ -52,7 +52,7 @@ useHead({
     {
       name: 'twitter:image',
       content: 'https://myportfolio-marcvegas.vercel.app/assets/profileopt.6877ecb4.png'
-    },
+    }, */
   ]
 })
 </script>
