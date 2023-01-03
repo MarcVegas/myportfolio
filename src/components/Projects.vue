@@ -3,7 +3,7 @@ import Card from "./Card.vue";
 
 const projects = [
     {tag: 'Event Management', title: 'Event Deck', url: 'https://source.unsplash.com/1600x900/?3d-render'},
-    {tag: 'E-Commerce', title: 'Theo Inventory Management System', url: 'https://source.unsplash.com/1600x900/?wallpapers'}
+    {tag: 'E-Commerce', title: 'Theo IMS', url: 'https://drive.google.com/uc?id=1hYHi_LVkA4-S4FNEGv1PPouLBxJR1OUM'}
 ]
 </script>
 
