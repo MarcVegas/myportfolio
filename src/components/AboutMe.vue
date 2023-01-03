@@ -20,7 +20,7 @@
 
             <h2 class="text-gray-800 dark:text-white text-2xl lg:text-3xl font-bold text-center mb-4 md:mb-6">Let me help you build your <span class="bg-mesh-2 rounded-md px-2">APP.</span> Contact me through the following channels</h2>
 
-            <p class="max-w-screen-md text-gray-500 dark:text-white md:text-lg text-center mx-auto">Email: marcvegas15.oc@gmail.com</p>
+            <p class="max-w-screen-md text-gray-500 dark:text-white md:text-lg text-center mx-auto">Email: spsomarcayam@gmail.com</p>
         </div>
       </div>
       <!-- text end -->
